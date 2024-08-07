@@ -13,7 +13,7 @@ Recently, there has been a demand to deploy Large Language Models (LLMs) on pers
 
 ## Repo Content
 
-This repo contains the code to reproduce the experimental results in out paper. 
+This repo contains the code to reproduce the experimental results in our paper. 
 - Section 4.1: [README](src/section-4.1/README.md) [Code](src/section-4.1)
 - Section 4.2
   - 4.2.1: [README](src/section-4.2.1/README.md) [Code](src/section-4.2.1)
