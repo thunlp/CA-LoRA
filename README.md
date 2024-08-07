@@ -23,9 +23,4 @@ This repo contains the code to reproduce the experimental results in our paper.
   - 4.2.2: [README](src/section-4.2.2/README.md) [Code](src/section-4.2.2) Llama-2 experiments implemented on [PEFT](https://github.com/huggingface/peft)
 
 
-## Citation
 
-Please cite our [paper](https://arxiv.org/pdf/2307.07705) if you find our work valuable.
-
-```
-```
