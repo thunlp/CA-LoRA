@@ -22,5 +22,15 @@ This repo contains the code to reproduce the experimental results in our paper.
   - 4.2.1: [README](src/section-4.2.1/README.md) [Code](src/section-4.2.1) Llama experiments implemented on [OpenDelta](https://github.com/thunlp/OpenDelta).
   - 4.2.2: [README](src/section-4.2.2/README.md) [Code](src/section-4.2.2) Llama-2 experiments implemented on [PEFT](https://github.com/huggingface/peft)
 
+## Citation
 
+Please cite our [paper](https://arxiv.org/pdf/2307.07705) if you find our work valuable.
 
+```
+@article{zhao2024calora,
+      title={CA-LoRA: Adapting Existing LoRA for Compressed LLMs to Enable Efficient Multi-Tasking on Personal Devices}, 
+      author={Weilin Zhao and Yuxiang Huang and Xu Han and Zhiyuan Liu and Zhengyan Zhang and Kuai Li and Chen Chen and Tao Yang and Maosong Sun},
+      journal={arXiv preprint arXiv:2307.07705},
+      year={2024}, 
+}
+```
