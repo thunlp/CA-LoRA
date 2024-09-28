@@ -167,7 +167,7 @@ elif args.lora_type == 'calora':
             loss1, outputs = super().compute_loss(model, inputs, return_outputs=True)
             hidden = outputs['hidden_states'][-1]
             with torch.no_grad():
-                teacher_hidden = model(**inputs)['hidden_states'][-1]
+                teacher_hidden = teacher_model(**inputs)['hidden_states'][-1]
             loss_dis = torch.nn.MSELoss()
             loss = loss1 + 0.055 * loss_dis(hidden, teacher_hidden)
             return (loss, outputs) if return_outputs else loss
