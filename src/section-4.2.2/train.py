@@ -18,6 +18,7 @@ args = parser.parse_args()
  
 # Load dataset from the hub
 dataset = load_from_disk("../datas/CodeAlpaca-20k/train") # sahil2801/CodeAlpaca-20k
+# Or dataset = load_from_disk("../datas/CodeAlpaca-20k")["train"] for some datasets version
  
 print(f"dataset size: {len(dataset)}")
 
